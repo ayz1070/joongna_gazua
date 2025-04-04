@@ -1,1 +1,1 @@
-# joongna_gazua_project
+# joongna_gazua
