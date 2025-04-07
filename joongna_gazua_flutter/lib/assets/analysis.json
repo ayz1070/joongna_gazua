@@ -2,10 +2,10 @@
   "total_reviews": 1000,
   "overall_counts": {
     "1": 284,
-    "2": 35,
+    "2": 36,
     "3": 61,
-    "4": 92,
-    "5": 528
+    "4": 90,
+    "5": 529
   },
   "analysis": {
     "1": {
@@ -21,34 +21,34 @@
         },
         {
           "word": "거래",
-          "frequency": 5
+          "frequency": 4
+        },
+        {
+          "word": "상품",
+          "frequency": 3
+        },
+        {
+          "word": "제한",
+          "frequency": 3
+        },
+        {
+          "word": "채팅",
+          "frequency": 3
+        },
+        {
+          "word": "전송",
+          "frequency": 3
         },
         {
           "word": "업데이트",
-          "frequency": 5
+          "frequency": 3
         },
         {
-          "word": "생각",
+          "word": "회로",
           "frequency": 2
         },
         {
-          "word": "사진",
-          "frequency": 2
-        },
-        {
-          "word": "보기",
-          "frequency": 2
-        },
-        {
-          "word": "중고",
-          "frequency": 2
-        },
-        {
-          "word": "판매",
-          "frequency": 2
-        },
-        {
-          "word": "전화",
+          "word": "구매",
           "frequency": 2
         }
       ]
@@ -57,8 +57,16 @@
       "review_count": 10,
       "top_words": [
         {
+          "word": "어플",
+          "frequency": 5
+        },
+        {
           "word": "업데이트",
           "frequency": 4
+        },
+        {
+          "word": "사용",
+          "frequency": 3
         },
         {
           "word": "버그",
@@ -87,14 +95,6 @@
         {
           "word": "고객",
           "frequency": 2
-        },
-        {
-          "word": "시간",
-          "frequency": 2
-        },
-        {
-          "word": "제때",
-          "frequency": 2
         }
       ]
     },
@@ -103,7 +103,7 @@
       "top_words": [
         {
           "word": "사진",
-          "frequency": 6
+          "frequency": 7
         },
         {
           "word": "채팅",
@@ -122,16 +122,12 @@
           "frequency": 3
         },
         {
-          "word": "문의",
-          "frequency": 3
-        },
-        {
           "word": "구매",
           "frequency": 3
         },
         {
-          "word": "사용",
-          "frequency": 3
+          "word": "등록",
+          "frequency": 2
         },
         {
           "word": "완료",
@@ -140,16 +136,16 @@
         {
           "word": "중고나라",
           "frequency": 2
+        },
+        {
+          "word": "거래",
+          "frequency": 2
         }
       ]
     },
     "4": {
       "review_count": 10,
       "top_words": [
-        {
-          "word": "사용",
-          "frequency": 2
-        },
         {
           "word": "카페",
           "frequency": 2
@@ -159,31 +155,35 @@
           "frequency": 2
         },
         {
-          "word": "다만",
-          "frequency": 1
-        },
-        {
-          "word": "가게",
-          "frequency": 1
-        },
-        {
-          "word": "소개",
-          "frequency": 1
-        },
-        {
-          "word": "글자",
-          "frequency": 1
-        },
-        {
-          "word": "제한",
-          "frequency": 1
-        },
-        {
           "word": "어플",
           "frequency": 1
         },
         {
+          "word": "사용",
+          "frequency": 1
+        },
+        {
           "word": "횟수",
+          "frequency": 1
+        },
+        {
+          "word": "개편",
+          "frequency": 1
+        },
+        {
+          "word": "메가박스",
+          "frequency": 1
+        },
+        {
+          "word": "선택",
+          "frequency": 1
+        },
+        {
+          "word": "확인",
+          "frequency": 1
+        },
+        {
+          "word": "연동",
           "frequency": 1
         }
       ]
@@ -192,46 +192,33 @@
       "review_count": 10,
       "top_words": [
         {
-          "word": "업데이트",
+          "word": "처음",
           "frequency": 2
         },
         {
-          "word": "처음",
+          "word": "매우",
+          "frequency": 1
+        },
+        {
+          "word": "편리",
+          "frequency": 1
+        },
+        {
+          "word": "번장",
+          "frequency": 1
+        },
+        {
+          "word": "판매",
+          "frequency": 1
+        },
+        {
+          "word": "사기",
           "frequency": 1
         },
         {
           "word": "구매",
           "frequency": 1
-        },
-        {
-          "word": "최근",
-          "frequency": 1
-        },
-        {
-          "word": "버벅거림",
-          "frequency": 1
-        },
-        {
-          "word": "개발",
-          "frequency": 1
-        },
-        {
-          "word": "다시",
-          "frequency": 1
-        },
-        {
-          "word": "세상",
-          "frequency": 1
-        },
-        {
-          "word": "배달",
-          "frequency": 1
-        },
-        {
-          "word": "일주일",
-          "frequency": 1
         }
       ]
     }
-  }
-}
+  },

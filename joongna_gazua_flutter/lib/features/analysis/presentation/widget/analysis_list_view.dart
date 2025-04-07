@@ -67,7 +67,7 @@ class AnalysisListView extends ConsumerWidget {
                     const Icon(Icons.date_range, size: 16, color: Colors.grey),
                     const SizedBox(width: 4),
                     Text(
-                      '날짜: 2025/04/04 기준',
+                      '날짜: 2025/04/07 기준',
                       style: AppTextStyles.body3,
                     ),
                   ],
