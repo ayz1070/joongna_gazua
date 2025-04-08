@@ -3,14 +3,15 @@ name: Deploy Flutter Web to GitHub Pages
 on:
   push:
     branches:
-      - main  # 자동 배포를 원하는 브랜치 (예: main)
+      - main      # main 브랜치에 푸시될 때
+      - develop   # develop 브랜치에도 자동 배포를 원하면 추가
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Install Flutter
@@ -18,16 +19,16 @@ jobs:
         with:
           flutter-version: 'stable'
 
-      - name: Install Dependencies
-        working-directory: joongna_gazua_flutter
+      - name: Install dependencies
+        working-directory: joongna_gazua/joongna_gazua_flutter
         run: flutter pub get
 
       - name: Build Flutter Web
-        working-directory: joongna_gazua_flutter
+        working-directory: joongna_gazua/joongna_gazua_flutter
         run: flutter build web --base-href="/joongna_gazua/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: joongna_gazua_flutter/build/web
+          publish_dir: joongna_gazua/joongna_gazua_flutter/build/web
